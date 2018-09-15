@@ -12,6 +12,8 @@
 		A30E83B1214CE930006CB6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E83AF214CE930006CB6D3 /* Main.storyboard */; };
 		A30E83B3214CE930006CB6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30E83B2214CE930006CB6D3 /* Assets.xcassets */; };
 		A30E83B6214CE930006CB6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E83B4214CE930006CB6D3 /* LaunchScreen.storyboard */; };
+		A30E83BE214CE985006CB6D3 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E83BD214CE985006CB6D3 /* DateManager.swift */; };
+		A30E83C0214CEA08006CB6D3 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E83BF214CEA07006CB6D3 /* CalendarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A30E83B2214CE930006CB6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30E83B5214CE930006CB6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A30E83B7214CE930006CB6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30E83BD214CE985006CB6D3 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		A30E83BF214CEA07006CB6D3 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		A30E83AA214CE930006CB6D3 /* calendarMiona */ = {
 			isa = PBXGroup;
 			children = (
+				A30E83BD214CE985006CB6D3 /* DateManager.swift */,
 				A30E83AB214CE930006CB6D3 /* AppDelegate.swift */,
 				A30E83AD214CE930006CB6D3 /* ViewController.swift */,
 				A30E83AF214CE930006CB6D3 /* Main.storyboard */,
 				A30E83B2214CE930006CB6D3 /* Assets.xcassets */,
 				A30E83B4214CE930006CB6D3 /* LaunchScreen.storyboard */,
 				A30E83B7214CE930006CB6D3 /* Info.plist */,
+				A30E83BF214CEA07006CB6D3 /* CalendarCell.swift */,
 			);
 			path = calendarMiona;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30E83AE214CE930006CB6D3 /* ViewController.swift in Sources */,
+				A30E83BE214CE985006CB6D3 /* DateManager.swift in Sources */,
 				A30E83AC214CE930006CB6D3 /* AppDelegate.swift in Sources */,
+				A30E83C0214CEA08006CB6D3 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
